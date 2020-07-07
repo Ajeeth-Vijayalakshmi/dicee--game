@@ -5,12 +5,12 @@
   var n2=Math.random();
   n2=Math.floor(n2*6);
   var diceimge=[];
-  diceimge.push("images/dice1.png");
-  diceimge.push("images/dice2.png");
-  diceimge.push("images/dice3.png");
-  diceimge.push("images/dice4.png");
-  diceimge.push("images/dice5.png");
-  diceimge.push("images/dice6.png");
+  diceimge.push("dice1.png");
+  diceimge.push("dice2.png");
+  diceimge.push("dice3.png");
+  diceimge.push("dice4.png");
+  diceimge.push("dice5.png");
+  diceimge.push("dice6.png");
   document.getElementsByClassName("img1")[0].setAttribute("src",diceimge[n1]);
   document.getElementsByClassName("img2")[0].setAttribute("src",diceimge[n2]);
   if(n1==n2)
